@@ -1,73 +1,72 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726777526
-character_body_2d.gd::GDScript::-1::1726596976::0::1::::<>CharacterBody2D<>::
-default_env.tres::Environment::-1::1726175760::0::1::::<><>::
-icon.png::CompressedTexture2D::3519316935969943402::1726175760::1726175772::1::::<><>::
-SceneDemo.tscn::PackedScene::1661542160122887469::1726777275::0::1::::<><>::res://character_body_2d.gd<>uid://33n50rqwbi0k::::res://Topdown - Pet - Dog/Root_Attack.png<>uid://c8prc31pj6j70::::res://Topdown - Pet - Dog/Root_Idle.png<>uid://clwo5ga0djgh7::::res://Topdown - Pet - Dog/Root_Walk.png<>uid://g6hjqcdy7vwa::::res://Topdown - Pet - Dog/Root_Death.png
-::res://addons/::1726175760
-::res://Topdown - Pet - Dog/::1726588537
-Root_Attack.png::CompressedTexture2D::2023934433803535652::1726588537::1726588537::1::::<><>::
-Root_Attack_FX.png::CompressedTexture2D::7723915474615635696::1726588537::1726588537::1::::<><>::
-Root_Death.png::CompressedTexture2D::485570706931428896::1726588537::1726588537::1::::<><>::
-Root_Idle.png::CompressedTexture2D::7121076145730514277::1726588537::1726588537::1::::<><>::
-Root_Walk.png::CompressedTexture2D::5591238885990107198::1726588537::1726588537::1::::<><>::
-::res://World of Solaria Demo Pack Update 04/::1726777427
-Asset License Updated 01 February 2024.txt::TextFile::-1::1726777427::0::1::::<><>::
-Solaria Palette.png::CompressedTexture2D::159967121293598195::1726777427::1726777537::1::::<><>::
-::res://World of Solaria Demo Pack Update 04/16x16/::1726777427
-::res://World of Solaria Demo Pack Update 04/16x16/Sprites/::1726777427
-::res://World of Solaria Demo Pack Update 04/16x16/Sprites/New/::1726777427
-Chris Attack (One Hand Weapons).png::CompressedTexture2D::7795442580678223860::1726777427::1726777537::1::::<><>::
-Chris Idle.png::CompressedTexture2D::1347974435292393827::1726777427::1726777537::1::::<><>::
-Chris Minecart Character.png::CompressedTexture2D::6825081901177892173::1726777427::1726777537::1::::<><>::
-Chris Minecart Vehicle.png::CompressedTexture2D::3823954532607571463::1726777427::1726777537::1::::<><>::
-Chris Sword 01.png::CompressedTexture2D::6263327158014726724::1726777427::1726777537::1::::<><>::
-Chris Walk.png::CompressedTexture2D::7277421002849237843::1726777427::1726777537::1::::<><>::
-::res://World of Solaria Demo Pack Update 04/16x16/Sprites/Old/::1726777427
-Hero 01.png::CompressedTexture2D::3960452009684107037::1726777427::1726777537::1::::<><>::
-Minecart 01.png::CompressedTexture2D::8661703708575604237::1726777427::1726777537::1::::<><>::
-Slime 01.png::CompressedTexture2D::5424496124796873105::1726777427::1726777537::1::::<><>::
-Sword 01.png::CompressedTexture2D::6610511686283593824::1726777427::1726777537::1::::<><>::
-::res://World of Solaria Demo Pack Update 04/16x16/Tilesets/::1726777427
-::res://World of Solaria Demo Pack Update 04/16x16/Tilesets/New/::1726777427
-Solaria Demo Tiles.png::CompressedTexture2D::3276649309623543074::1726777427::1726777537::1::::<><>::
-::res://World of Solaria Demo Pack Update 04/16x16/Tilesets/Old/::1726777427
-Solaria Demo Update 01.png::CompressedTexture2D::3652861778090506907::1726777427::1726777537::1::::<><>::
-::res://World of Solaria Demo Pack Update 04/RPG Maker/::1726777428
-::res://World of Solaria Demo Pack Update 04/RPG Maker/characters/::1726777427
-!Chest.png::CompressedTexture2D::8331307882877151911::1726777427::1726777537::1::::<><>::
-!Door1.png::CompressedTexture2D::7236536291860581591::1726777427::1726777537::1::::<><>::
-!Flame.png::CompressedTexture2D::3554416550860653298::1726777427::1726777537::1::::<><>::
-!Other1.png::CompressedTexture2D::6934447810030520243::1726777427::1726777537::1::::<><>::
-!Other2.png::CompressedTexture2D::2757106298081414112::1726777427::1726777537::1::::<><>::
-!Switch1.png::CompressedTexture2D::4139713014846297925::1726777427::1726777537::1::::<><>::
-Actor1.png::CompressedTexture2D::4121301990126251205::1726777427::1726777537::1::::<><>::
-Minecart.png::CompressedTexture2D::8114375741444283517::1726777427::1726777537::1::::<><>::
-Monster.png::CompressedTexture2D::4920765551570257004::1726777427::1726777537::1::::<><>::
-::res://World of Solaria Demo Pack Update 04/RPG Maker/faces/::1726777427
-Actor1.png::CompressedTexture2D::1482017673144753934::1726777427::1726777537::1::::<><>::
-::res://World of Solaria Demo Pack Update 04/RPG Maker/tilesets/::1726777428
-Dungeon_A1.png::CompressedTexture2D::4431561506906632227::1726777428::1726777537::1::::<><>::
-Dungeon_A1.txt::TextFile::-1::1726777428::0::1::::<><>::
-Dungeon_A2.png::CompressedTexture2D::7104179333089967018::1726777428::1726777537::1::::<><>::
-Dungeon_A2.txt::TextFile::-1::1726777428::0::1::::<><>::
-Dungeon_A4.png::CompressedTexture2D::5036023768152452926::1726777428::1726777537::1::::<><>::
-Dungeon_A4.txt::TextFile::-1::1726777428::0::1::::<><>::
-Dungeon_A5.png::CompressedTexture2D::2849942584284818459::1726777428::1726777537::1::::<><>::
-Dungeon_A5.txt::TextFile::-1::1726777428::0::1::::<><>::
-Dungeon_B.png::CompressedTexture2D::2721279187114914790::1726777428::1726777537::1::::<><>::
-Dungeon_B.txt::TextFile::-1::1726777428::0::1::::<><>::
-Dungeon_C.png::CompressedTexture2D::4859642324993479188::1726777428::1726777537::1::::<><>::
-Dungeon_C.txt::TextFile::-1::1726777428::0::1::::<><>::
-Outside_A1.png::CompressedTexture2D::6866532288554070740::1726777428::1726777537::1::::<><>::
-Outside_A1.txt::TextFile::-1::1726777428::0::1::::<><>::
-Outside_A2.png::CompressedTexture2D::7906101810619848685::1726777428::1726777537::1::::<><>::
-Outside_A2.txt::TextFile::-1::1726777428::0::1::::<><>::
-Outside_A3.png::CompressedTexture2D::5192911245519540756::1726777428::1726777537::1::::<><>::
-Outside_A3.txt::TextFile::-1::1726777428::0::1::::<><>::
-Outside_A5.png::CompressedTexture2D::4098784287806381498::1726777428::1726777537::1::::<><>::
-Outside_A5.txt::TextFile::-1::1726777428::0::1::::<><>::
-Outside_B.png::CompressedTexture2D::5507849472470840116::1726777428::1726777537::1::::<><>::
-Outside_B.txt::TextFile::-1::1726777428::0::1::::<><>::
-Outside_C.png::CompressedTexture2D::8680383589388461819::1726777428::1726777537::1::::<><>::
-Outside_C.txt::TextFile::-1::1726777428::0::1::::<><>::
+::res://::1726779924
+character_body_2d.gd::GDScript::-1::1726779546::0::1::::<>CharacterBody2D<>::
+default_env.tres::Environment::-1::1726779546::0::1::::<><>::
+icon.png::CompressedTexture2D::3519316935969943402::1726779546::1726779819::1::::<><>::
+SceneDemo.tscn::PackedScene::1661542160122887469::1726779873::0::1::::<><>::res://character_body_2d.gd<>uid://33n50rqwbi0k::::res://Topdown - Pet - Dog/Root_Attack.png<>uid://c8prc31pj6j70::::res://Topdown - Pet - Dog/Root_Idle.png<>uid://clwo5ga0djgh7::::res://Topdown - Pet - Dog/Root_Walk.png<>uid://g6hjqcdy7vwa::::res://Topdown - Pet - Dog/Root_Death.png
+::res://Topdown - Pet - Dog/::1726779819
+Root_Attack.png::CompressedTexture2D::2023934433803535652::1726779546::1726779819::1::::<><>::
+Root_Attack_FX.png::CompressedTexture2D::7723915474615635696::1726779546::1726779819::1::::<><>::
+Root_Death.png::CompressedTexture2D::485570706931428896::1726779546::1726779819::1::::<><>::
+Root_Idle.png::CompressedTexture2D::7121076145730514277::1726779546::1726779819::1::::<><>::
+Root_Walk.png::CompressedTexture2D::5591238885990107198::1726779546::1726779819::1::::<><>::
+::res://World of Solaria Demo Pack Update 04/::1726779819
+Asset License Updated 01 February 2024.txt::TextFile::-1::1726779546::0::1::::<><>::
+Solaria Palette.png::CompressedTexture2D::159967121293598195::1726779546::1726779819::1::::<><>::
+::res://World of Solaria Demo Pack Update 04/16x16/::1726779546
+::res://World of Solaria Demo Pack Update 04/16x16/Sprites/::1726779546
+::res://World of Solaria Demo Pack Update 04/16x16/Sprites/New/::1726779819
+Chris Attack (One Hand Weapons).png::CompressedTexture2D::7795442580678223860::1726779546::1726779819::1::::<><>::
+Chris Idle.png::CompressedTexture2D::1347974435292393827::1726779546::1726779819::1::::<><>::
+Chris Minecart Character.png::CompressedTexture2D::6825081901177892173::1726779546::1726779819::1::::<><>::
+Chris Minecart Vehicle.png::CompressedTexture2D::3823954532607571463::1726779546::1726779819::1::::<><>::
+Chris Sword 01.png::CompressedTexture2D::6263327158014726724::1726779546::1726779819::1::::<><>::
+Chris Walk.png::CompressedTexture2D::7277421002849237843::1726779546::1726779819::1::::<><>::
+::res://World of Solaria Demo Pack Update 04/16x16/Sprites/Old/::1726779819
+Hero 01.png::CompressedTexture2D::3960452009684107037::1726779546::1726779819::1::::<><>::
+Minecart 01.png::CompressedTexture2D::8661703708575604237::1726779546::1726779819::1::::<><>::
+Slime 01.png::CompressedTexture2D::5424496124796873105::1726779546::1726779819::1::::<><>::
+Sword 01.png::CompressedTexture2D::6610511686283593824::1726779546::1726779819::1::::<><>::
+::res://World of Solaria Demo Pack Update 04/16x16/Tilesets/::1726779873
+Solaria Demo Tiles.png::CompressedTexture2D::3276649309623543074::1726779546::1726779873::1::::<><>::
+::res://World of Solaria Demo Pack Update 04/16x16/Tilesets/New/::1726779924
+Solaria Demo Update 01.png::CompressedTexture2D::3652861778090506907::1726779546::1726779924::1::::<><>::
+::res://World of Solaria Demo Pack Update 04/16x16/Tilesets/Old/::1726779924
+::res://World of Solaria Demo Pack Update 04/RPG Maker/::1726779546
+::res://World of Solaria Demo Pack Update 04/RPG Maker/characters/::1726779819
+!Chest.png::CompressedTexture2D::8331307882877151911::1726779546::1726779819::1::::<><>::
+!Door1.png::CompressedTexture2D::7236536291860581591::1726779546::1726779819::1::::<><>::
+!Flame.png::CompressedTexture2D::3554416550860653298::1726779546::1726779819::1::::<><>::
+!Other1.png::CompressedTexture2D::6934447810030520243::1726779546::1726779819::1::::<><>::
+!Other2.png::CompressedTexture2D::2757106298081414112::1726779546::1726779819::1::::<><>::
+!Switch1.png::CompressedTexture2D::4139713014846297925::1726779546::1726779819::1::::<><>::
+Actor1.png::CompressedTexture2D::4121301990126251205::1726779546::1726779819::1::::<><>::
+Minecart.png::CompressedTexture2D::8114375741444283517::1726779546::1726779819::1::::<><>::
+Monster.png::CompressedTexture2D::4920765551570257004::1726779546::1726779819::1::::<><>::
+::res://World of Solaria Demo Pack Update 04/RPG Maker/faces/::1726779819
+Actor1.png::CompressedTexture2D::1482017673144753934::1726779546::1726779819::1::::<><>::
+::res://World of Solaria Demo Pack Update 04/RPG Maker/tilesets/::1726779819
+Dungeon_A1.png::CompressedTexture2D::4431561506906632227::1726779546::1726779819::1::::<><>::
+Dungeon_A1.txt::TextFile::-1::1726779546::0::1::::<><>::
+Dungeon_A2.png::CompressedTexture2D::7104179333089967018::1726779546::1726779819::1::::<><>::
+Dungeon_A2.txt::TextFile::-1::1726779546::0::1::::<><>::
+Dungeon_A4.png::CompressedTexture2D::5036023768152452926::1726779546::1726779819::1::::<><>::
+Dungeon_A4.txt::TextFile::-1::1726779546::0::1::::<><>::
+Dungeon_A5.png::CompressedTexture2D::2849942584284818459::1726779546::1726779819::1::::<><>::
+Dungeon_A5.txt::TextFile::-1::1726779546::0::1::::<><>::
+Dungeon_B.png::CompressedTexture2D::2721279187114914790::1726779546::1726779819::1::::<><>::
+Dungeon_B.txt::TextFile::-1::1726779546::0::1::::<><>::
+Dungeon_C.png::CompressedTexture2D::4859642324993479188::1726779546::1726779819::1::::<><>::
+Dungeon_C.txt::TextFile::-1::1726779546::0::1::::<><>::
+Outside_A1.png::CompressedTexture2D::6866532288554070740::1726779546::1726779819::1::::<><>::
+Outside_A1.txt::TextFile::-1::1726779546::0::1::::<><>::
+Outside_A2.png::CompressedTexture2D::7906101810619848685::1726779546::1726779819::1::::<><>::
+Outside_A2.txt::TextFile::-1::1726779546::0::1::::<><>::
+Outside_A3.png::CompressedTexture2D::5192911245519540756::1726779546::1726779819::1::::<><>::
+Outside_A3.txt::TextFile::-1::1726779546::0::1::::<><>::
+Outside_A5.png::CompressedTexture2D::4098784287806381498::1726779546::1726779819::1::::<><>::
+Outside_A5.txt::TextFile::-1::1726779546::0::1::::<><>::
+Outside_B.png::CompressedTexture2D::5507849472470840116::1726779546::1726779819::1::::<><>::
+Outside_B.txt::TextFile::-1::1726779546::0::1::::<><>::
+Outside_C.png::CompressedTexture2D::8680383589388461819::1726779546::1726779819::1::::<><>::
+Outside_C.txt::TextFile::-1::1726779546::0::1::::<><>::
