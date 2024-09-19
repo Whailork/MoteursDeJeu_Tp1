@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726779924
+::res://::1726784018
 character_body_2d.gd::GDScript::-1::1726779546::0::1::::<>CharacterBody2D<>::
 default_env.tres::Environment::-1::1726779546::0::1::::<><>::
 icon.png::CompressedTexture2D::3519316935969943402::1726779546::1726779819::1::::<><>::
-SceneDemo.tscn::PackedScene::1661542160122887469::1726779873::0::1::::<><>::res://character_body_2d.gd<>uid://33n50rqwbi0k::::res://Topdown - Pet - Dog/Root_Attack.png<>uid://c8prc31pj6j70::::res://Topdown - Pet - Dog/Root_Idle.png<>uid://clwo5ga0djgh7::::res://Topdown - Pet - Dog/Root_Walk.png<>uid://g6hjqcdy7vwa::::res://Topdown - Pet - Dog/Root_Death.png
+SceneDemo.tscn::PackedScene::1661542160122887469::1726783655::0::1::::<><>::res://character_body_2d.gd<>uid://33n50rqwbi0k::::res://Topdown - Pet - Dog/Root_Attack.png<>uid://c8prc31pj6j70::::res://Topdown - Pet - Dog/Root_Idle.png<>uid://clwo5ga0djgh7::::res://Topdown - Pet - Dog/Root_Walk.png<>uid://g6hjqcdy7vwa::::res://Topdown - Pet - Dog/Root_Death.png<>uid://bsbqdnmme0xqx::::res://World of Solaria Demo Pack Update 04/16x16/Tilesets/New/Solaria Demo Update 01.png
 ::res://Topdown - Pet - Dog/::1726779819
 Root_Attack.png::CompressedTexture2D::2023934433803535652::1726779546::1726779819::1::::<><>::
 Root_Attack_FX.png::CompressedTexture2D::7723915474615635696::1726779546::1726779819::1::::<><>::
