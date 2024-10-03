@@ -1,2 +1,2 @@
-﻿49186
+49186
 C:/Users/Coralie/Documents/Programmation avec moteurs de jeu/Godot_v4.3-stable_mono_win64/Godot_v4.3-stable_mono_win64/Godot_v4.3-stable_mono_win64.exe
