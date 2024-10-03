@@ -20,6 +20,10 @@ config/icon="res://icon.png"
 
 project/assembly_name="DemoMoteursDeJeu"
 
+[global_group]
+
+persist=""
+
 [input]
 
 MoveLeft={
