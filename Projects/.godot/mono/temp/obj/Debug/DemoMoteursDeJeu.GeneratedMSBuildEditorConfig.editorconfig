@@ -1,6 +1,10 @@
 is_global = true
 build_property.GodotDisabledSourceGenerators = 
+<<<<<<< Updated upstream
 build_property.GodotProjectDir = C:\Users\berge\OneDrive\Bureau\Code\WonderJam\2024\hiver\MoteursDeJeu_Tp1\Projects\
+=======
+build_property.GodotProjectDir = c:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\
+>>>>>>> Stashed changes
 build_property.GodotProjectDirBase64 = 
 build_property.GodotSourceGenerators = 
 build_property.IsGodotToolsProject = 
@@ -13,6 +17,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DemoMoteursDeJeu
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\Users\berge\OneDrive\Bureau\Code\WonderJam\2024\hiver\MoteursDeJeu_Tp1\Projects\
+=======
+build_property.ProjectDir = c:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\
+>>>>>>> Stashed changes
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

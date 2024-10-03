@@ -2,13 +2,21 @@
   "version": 3,
   "targets": {
     "net6.0": {
+<<<<<<< Updated upstream
       "Godot.SourceGenerators/4.1.2": {
+=======
+      "Godot.SourceGenerators/4.3.0-dev.3": {
+>>>>>>> Stashed changes
         "type": "package",
         "build": {
           "build/Godot.SourceGenerators.props": {}
         }
       },
+<<<<<<< Updated upstream
       "GodotSharp/4.1.2": {
+=======
+      "GodotSharp/4.3.0-dev.3": {
+>>>>>>> Stashed changes
         "type": "package",
         "compile": {
           "lib/net6.0/GodotSharp.dll": {
@@ -21,10 +29,17 @@
           }
         }
       },
+<<<<<<< Updated upstream
       "GodotSharpEditor/4.1.2": {
         "type": "package",
         "dependencies": {
           "GodotSharp": "4.1.2"
+=======
+      "GodotSharpEditor/4.3.0-dev.3": {
+        "type": "package",
+        "dependencies": {
+          "GodotSharp": "4.3.0-dev.3"
+>>>>>>> Stashed changes
         },
         "compile": {
           "lib/net6.0/GodotSharpEditor.dll": {
@@ -40,15 +55,23 @@
     }
   },
   "libraries": {
+<<<<<<< Updated upstream
     "Godot.SourceGenerators/4.1.2": {
       "sha512": "WVZ+0PsBSwASQNGmmnv5OEkClwe3M0E0LfzmnRKYNzU7V+qnaW+QU0COTVjzQLBlhIdS9sX2gHAR/ogZdKnhVA==",
       "type": "package",
       "path": "godot.sourcegenerators/4.1.2",
+=======
+    "Godot.SourceGenerators/4.3.0-dev.3": {
+      "sha512": "wykjM3J8gimjqFyMcozQwI+PmOswV1/QDZLEY41UQfvX8Cz8ghMb5lv7+ftFDAdJPRIieS2a97HNN1ZifENp+A==",
+      "type": "package",
+      "path": "godot.sourcegenerators/4.3.0-dev.3",
+>>>>>>> Stashed changes
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/Godot.SourceGenerators.dll",
         "build/Godot.SourceGenerators.props",
+<<<<<<< Updated upstream
         "godot.sourcegenerators.4.1.2.nupkg.sha512",
         "godot.sourcegenerators.nuspec"
       ]
@@ -61,11 +84,26 @@
         ".nupkg.metadata",
         ".signature.p7s",
         "godotsharp.4.1.2.nupkg.sha512",
+=======
+        "godot.sourcegenerators.4.3.0-dev.3.nupkg.sha512",
+        "godot.sourcegenerators.nuspec"
+      ]
+    },
+    "GodotSharp/4.3.0-dev.3": {
+      "sha512": "Exm72osg+aMQ2YtPYrJ2cTl6dl8JhVK14WPYeSkabDIEWATe2T+swflFEgbOoAt0mFOHV4TxEdeDCPf13suNjQ==",
+      "type": "package",
+      "path": "godotsharp/4.3.0-dev.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "godotsharp.4.3.0-dev.3.nupkg.sha512",
+>>>>>>> Stashed changes
         "godotsharp.nuspec",
         "lib/net6.0/GodotSharp.dll",
         "lib/net6.0/GodotSharp.xml"
       ]
     },
+<<<<<<< Updated upstream
     "GodotSharpEditor/4.1.2": {
       "sha512": "L8toPAj+YzsHVtR7JEKC11//oBEVoB91kVY49kjCkVuqTLSsg8NKPaYE+54YRyI2g9lqSES9xX5bQ/6yT9rOWA==",
       "type": "package",
@@ -74,6 +112,16 @@
         ".nupkg.metadata",
         ".signature.p7s",
         "godotsharpeditor.4.1.2.nupkg.sha512",
+=======
+    "GodotSharpEditor/4.3.0-dev.3": {
+      "sha512": "ykQxyElHRDPnc0cAmDhHS/CTg65Xdlsv0LdUy95U5cKs9IS0R5PR4MqzAaQbpc392fFmFMqfSJxZ1N9s3CrgEw==",
+      "type": "package",
+      "path": "godotsharpeditor/4.3.0-dev.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "godotsharpeditor.4.3.0-dev.3.nupkg.sha512",
+>>>>>>> Stashed changes
         "godotsharpeditor.nuspec",
         "lib/net6.0/GodotSharpEditor.dll",
         "lib/net6.0/GodotSharpEditor.xml"
@@ -82,6 +130,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+<<<<<<< Updated upstream
       "Godot.SourceGenerators >= 4.1.2",
       "GodotSharp >= 4.1.2",
       "GodotSharpEditor >= 4.1.2"
@@ -91,10 +140,20 @@
     "C:\\Users\\berge\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+=======
+      "Godot.SourceGenerators >= 4.3.0-dev.3",
+      "GodotSharp >= 4.3.0-dev.3",
+      "GodotSharpEditor >= 4.3.0-dev.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\15814\\.nuget\\packages\\": {}
+>>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\berge\\OneDrive\\Bureau\\Code\\WonderJam\\2024\\hiver\\MoteursDeJeu_Tp1\\Projects\\DemoMoteursDeJeu.csproj",
       "projectName": "DemoMoteursDeJeu",
       "projectPath": "C:\\Users\\berge\\OneDrive\\Bureau\\Code\\WonderJam\\2024\\hiver\\MoteursDeJeu_Tp1\\Projects\\DemoMoteursDeJeu.csproj",
@@ -110,13 +169,27 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+      "projectUniqueName": "c:\\Users\\15814\\Desktop\\projets_jni\\MoteursDeJeu_Tp1\\Projects\\DemoMoteursDeJeu.csproj",
+      "projectName": "DemoMoteursDeJeu",
+      "projectPath": "c:\\Users\\15814\\Desktop\\projets_jni\\MoteursDeJeu_Tp1\\Projects\\DemoMoteursDeJeu.csproj",
+      "packagesPath": "C:\\Users\\15814\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\15814\\Desktop\\projets_jni\\MoteursDeJeu_Tp1\\Projects\\.godot\\mono\\temp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\15814\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> Stashed changes
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< Updated upstream
         "C:\\Program Files\\dotnet\\library-packs": {},
+=======
+>>>>>>> Stashed changes
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -142,6 +215,7 @@
         "dependencies": {
           "Godot.SourceGenerators": {
             "target": "Package",
+<<<<<<< Updated upstream
             "version": "[4.1.2, )"
           },
           "GodotSharp": {
@@ -151,6 +225,17 @@
           "GodotSharpEditor": {
             "target": "Package",
             "version": "[4.1.2, )"
+=======
+            "version": "[4.3.0-dev.3, )"
+          },
+          "GodotSharp": {
+            "target": "Package",
+            "version": "[4.3.0-dev.3, )"
+          },
+          "GodotSharpEditor": {
+            "target": "Package",
+            "version": "[4.3.0-dev.3, )"
+>>>>>>> Stashed changes
           }
         },
         "imports": [
@@ -169,7 +254,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       }
     }
   }
