@@ -13,7 +13,7 @@ config_version=5
 config/name="DemoMoteursDeJeu"
 config/description="Enter an interesting project description here!"
 run/main_scene="res://SceneDemo.tscn"
-config/features=PackedStringArray("4.1", "C#")
+config/features=PackedStringArray("4.1")
 config/icon="res://icon.png"
 
 [dotnet]

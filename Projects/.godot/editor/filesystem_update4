@@ -1,6 +1,1 @@
 res://SceneDemo.tscn
-res://character_body_2d.gd
-res://CharacterBody2D.cs
-res://Script/LevelScript.cs
-res://Script/testScript.cs
-res://Script/MainLoop.cs
