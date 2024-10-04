@@ -5,3 +5,4 @@ res://CharacterBody2D.cs
 res://Script/testScript.cs
 res://Node.cs
 res://Script/CustomMainLoop.cs
+res://SaveData.cs
