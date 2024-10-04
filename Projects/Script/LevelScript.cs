@@ -1,4 +1,5 @@
-namespace DemoMoteursDeJeu.Script;
+using Godot;
+using System;
 
 public partial class LevelScript : Node
 {
