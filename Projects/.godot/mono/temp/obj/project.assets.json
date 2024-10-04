@@ -95,28 +95,25 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berge\\OneDrive\\Bureau\\Code\\WonderJam\\2024\\hiver\\MoteursDeJeu_Tp1\\Projects\\DemoMoteursDeJeu.csproj",
+      "projectUniqueName": "C:\\Users\\15814\\Desktop\\projets_jni\\MoteursDeJeu_Tp1\\Projects\\DemoMoteursDeJeu.csproj",
       "projectName": "DemoMoteursDeJeu",
-      "projectPath": "C:\\Users\\berge\\OneDrive\\Bureau\\Code\\WonderJam\\2024\\hiver\\MoteursDeJeu_Tp1\\Projects\\DemoMoteursDeJeu.csproj",
-      "packagesPath": "C:\\Users\\berge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berge\\OneDrive\\Bureau\\Code\\WonderJam\\2024\\hiver\\MoteursDeJeu_Tp1\\Projects\\.godot\\mono\\temp\\obj\\",
+      "projectPath": "C:\\Users\\15814\\Desktop\\projets_jni\\MoteursDeJeu_Tp1\\Projects\\DemoMoteursDeJeu.csproj",
+      "packagesPath": "C:\\Users\\15814\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\15814\\Desktop\\projets_jni\\MoteursDeJeu_Tp1\\Projects\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\berge\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\15814\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -169,7 +166,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

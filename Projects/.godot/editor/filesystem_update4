@@ -1,8 +1,6 @@
+res://SceneDemo.tscn
 res://CharacterBody2D.cs
 res://Node.cs
 res://SaveData.cs
 res://Script/LevelScript.cs
-res://Script/MainLoop.cs
 res://Script/testScript.cs
-res://SceneDemo.tscn
-res://Script/CustomMainLoop.cs
