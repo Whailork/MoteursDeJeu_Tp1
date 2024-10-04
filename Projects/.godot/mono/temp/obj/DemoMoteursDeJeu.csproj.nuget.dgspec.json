@@ -13,13 +13,6 @@
         "packagesPath": "C:\\Users\\15814\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\15814\\Desktop\\projets_jni\\MoteursDeJeu_Tp1\\Projects\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
-<<<<<<< HEAD
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
-        ],
-=======
->>>>>>> SaveDate2
         "configFilePaths": [
           "C:\\Users\\15814\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -41,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
