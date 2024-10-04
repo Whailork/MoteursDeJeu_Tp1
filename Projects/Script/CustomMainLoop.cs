@@ -13,14 +13,23 @@ public partial class CustomMainLoop : SceneTree
 	public override void _Initialize()
 	{
 		GD.Print("Initialized:");
-		customMainLoop = new CustomMainLoop();
-		GetSubsystem<SaveManager>().LoadGame(null);
+		//GetSubsystem<SaveManager>().LoadGame(null);
 	}
 
 	public override bool _Process(double delta)
 	{
 		// Return true to end the main loop.
 		return Input.GetMouseButtonMask() != 0 || Input.IsKeyPressed(Key.Escape);
+	}
+
+	public static CustomMainLoop GetCustomMainLoop()
+	{
+		if (customMainLoop == null)
+		{
+			customMainLoop = new CustomMainLoop();
+		}
+
+		return customMainLoop;
 	}
 
 
