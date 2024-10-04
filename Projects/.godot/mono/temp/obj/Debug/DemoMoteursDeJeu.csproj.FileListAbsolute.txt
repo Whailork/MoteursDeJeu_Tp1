@@ -25,3 +25,12 @@ C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\ob
 C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\obj\Debug\DemoMoteursDeJeu.dll
 C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\obj\Debug\refint\DemoMoteursDeJeu.dll
 C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\obj\Debug\DemoMoteursDeJeu.pdb
+C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\bin\Debug\DemoMoteursDeJeu.deps.json
+C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\bin\Debug\DemoMoteursDeJeu.runtimeconfig.json
+C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\bin\Debug\DemoMoteursDeJeu.dll
+C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\bin\Debug\DemoMoteursDeJeu.pdb
+C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\obj\Debug\DemoMote.E39F3030.Up2Date
+C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\obj\Debug\DemoMoteursDeJeu.genruntimeconfig.cache
+C:\Users\15814\Desktop\projets_jni\MoteursDeJeu_Tp1\Projects\.godot\mono\temp\obj\Debug\ref\DemoMoteursDeJeu.dll
