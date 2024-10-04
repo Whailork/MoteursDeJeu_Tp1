@@ -11,7 +11,7 @@ namespace DemoMoteursDeJeu
         public override void _Ready()
         {
             // Load the game state when the character is ready
-            CustomMainLoop.customMainLoop.GetSubsystem<SaveManager>().LoadGame(this);
+            CustomMainLoop.GetCustomMainLoop().GetSubsystem<SaveManager>().LoadGame( GetNode<CharacterBody2D>("."));
             animatedSprite2D = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
             animatedSprite2D.AnimationFinished += AnimatedSprite2DOnAnimationFinished;
         }
@@ -194,12 +194,12 @@ namespace DemoMoteursDeJeu
             // Check for save/load key presses
             if (Input.IsActionJustReleased("Save")) // Key 9 to Save
             {
-                CustomMainLoop.customMainLoop.GetSubsystem<SaveManager>().SaveGame(this);
+                CustomMainLoop.GetCustomMainLoop().GetSubsystem<SaveManager>().SaveGame(GetNode<CharacterBody2D>("."));
             }
 
             if (Input.IsActionJustReleased("Load")) // Key 0 to Load
             {
-                CustomMainLoop.customMainLoop.GetSubsystem<SaveManager>().LoadGame(this);
+                CustomMainLoop.GetCustomMainLoop().GetSubsystem<SaveManager>().LoadGame(GetNode<CharacterBody2D>("."));
             }
         }
     }
