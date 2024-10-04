@@ -1,196 +1,206 @@
 using DemoMoteursDeJeu.Script;
 using Godot;
 
-namespace DemoMoteursDeJeu;
-
-public partial class CharacterBody2D : Godot.CharacterBody2D
+namespace DemoMoteursDeJeu
 {
-	public const float Speed = 100.0f;
-	public const float JumpVelocity = -400.0f;
-	public AnimatedSprite2D animatedSprite2D;
-	
-	public override void _Ready()
-	{
-		CustomMainLoop.GetCustomMainLoop().GetSubsystem<SaveManager>().LoadGame(GetNode<CharacterBody2D>("."));
-		animatedSprite2D = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
-		animatedSprite2D.AnimationFinished += AnimatedSprite2DOnAnimationFinished;
-		
-	}
-	private Vector2 getInput()
-	{
-		
-		Vector2 velocity = new Vector2();
-		if (Input.IsActionPressed("MoveRight"))
-		{
-			velocity.X += 1; 
-		}
+    public partial class CharacterBody2D : Godot.CharacterBody2D
+    {
+        public const float Speed = 100.0f;
+        public AnimatedSprite2D animatedSprite2D;
 
-		if (Input.IsActionPressed("MoveLeft"))
-		{
-			velocity.X -= 1;
-		}
+        public override void _Ready()
+        {
+            // Load the game state when the character is ready
+            CustomMainLoop.customMainLoop.GetSubsystem<SaveManager>().LoadGame(this);
+            animatedSprite2D = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
+            animatedSprite2D.AnimationFinished += AnimatedSprite2DOnAnimationFinished;
+        }
 
-		if (Input.IsActionPressed("MoveDown"))
-		{
-			velocity.Y += 1;
-		}
+        private Vector2 getInput()
+        {
+            Vector2 velocity = new Vector2();
+            if (Input.IsActionPressed("MoveRight"))
+            {
+                velocity.X += 1; 
+            }
 
-		if (Input.IsActionPressed("MoveUp"))
-		{
-			velocity.Y -= 1;
-		}
-		//pour les anim de walk
-		if (Input.IsActionJustPressed("MoveRight"))
-		{
-			animatedSprite2D.Animation = "Walk_Right";
-			animatedSprite2D.Play();
-		}
+            if (Input.IsActionPressed("MoveLeft"))
+            {
+                velocity.X -= 1;
+            }
 
-		if (Input.IsActionJustPressed("MoveLeft"))
-		{
-			animatedSprite2D.Animation = "Walk_Left";
-			animatedSprite2D.Play();
-		}
+            if (Input.IsActionPressed("MoveDown"))
+            {
+                velocity.Y += 1;
+            }
 
-		if (Input.IsActionJustPressed("MoveDown"))
-		{
-			animatedSprite2D.Animation = "Walk_Down";
-			animatedSprite2D.Play();
-		}
+            if (Input.IsActionPressed("MoveUp"))
+            {
+                velocity.Y -= 1;
+            }
 
-		if (Input.IsActionJustPressed("MoveUp"))
-		{
-			animatedSprite2D.Animation = "Walk_Top";
-			animatedSprite2D.Play();
-		}
-		
-		//les animations pour le play dead
-		if (Input.IsActionJustPressed("PlayDead"))
-		{
-			if (animatedSprite2D.Animation == "Walk_Right" || animatedSprite2D.Animation == "Idle_Right")
-			{
-				animatedSprite2D.Animation = "Die_Right";
-			}
+            // Animation logic based on movement input
+            if (Input.IsActionJustPressed("MoveRight"))
+            {
+                animatedSprite2D.Animation = "Walk_Right";
+                animatedSprite2D.Play();
+            }
 
-			if (animatedSprite2D.Animation == "Walk_Left" || animatedSprite2D.Animation == "Idle_Left")
-			{
-				animatedSprite2D.Animation = "Die_Left";
-			}
+            if (Input.IsActionJustPressed("MoveLeft"))
+            {
+                animatedSprite2D.Animation = "Walk_Left";
+                animatedSprite2D.Play();
+            }
 
-			if (animatedSprite2D.Animation == "Walk_Down" || animatedSprite2D.Animation == "Idle_Down")
-			{
-				animatedSprite2D.Animation = "Die_Down";
-			}
+            if (Input.IsActionJustPressed("MoveDown"))
+            {
+                animatedSprite2D.Animation = "Walk_Down";
+                animatedSprite2D.Play();
+            }
 
-			if (animatedSprite2D.Animation == "Walk_Top" || animatedSprite2D.Animation == "Idle_Top")
-			{
-				animatedSprite2D.Animation = "Die_Top";
-			}
-		}
+            if (Input.IsActionJustPressed("MoveUp"))
+            {
+                animatedSprite2D.Animation = "Walk_Top";
+                animatedSprite2D.Play();
+            }
 
-		if (Input.IsActionJustPressed("Attack"))
-		{
-			if (animatedSprite2D.Animation == "Walk_Right" || animatedSprite2D.Animation == "Idle_Right")
-			{
-				animatedSprite2D.Animation = "Attack_Right";
-			}
+            // PlayDead animation
+            if (Input.IsActionJustPressed("PlayDead"))
+            {
+                switch (animatedSprite2D.Animation)
+                {
+                    case "Walk_Right":
+                    case "Idle_Right":
+                        animatedSprite2D.Animation = "Die_Right";
+                        break;
+                    case "Walk_Left":
+                    case "Idle_Left":
+                        animatedSprite2D.Animation = "Die_Left";
+                        break;
+                    case "Walk_Down":
+                    case "Idle_Down":
+                        animatedSprite2D.Animation = "Die_Down";
+                        break;
+                    case "Walk_Top":
+                    case "Idle_Top":
+                        animatedSprite2D.Animation = "Die_Top";
+                        break;
+                }
+            }
 
-			if (animatedSprite2D.Animation == "Walk_Left" || animatedSprite2D.Animation == "Idle_Left")
-			{
-				animatedSprite2D.Animation = "Attack_Left";
-			}
+            // Attack animation
+            if (Input.IsActionJustPressed("Attack"))
+            {
+                switch (animatedSprite2D.Animation)
+                {
+                    case "Walk_Right":
+                    case "Idle_Right":
+                        animatedSprite2D.Animation = "Attack_Right";
+                        break;
+                    case "Walk_Left":
+                    case "Idle_Left":
+                        animatedSprite2D.Animation = "Attack_Left";
+                        break;
+                    case "Walk_Down":
+                    case "Idle_Down":
+                        animatedSprite2D.Animation = "Attack_Down";
+                        break;
+                    case "Walk_Top":
+                    case "Idle_Top":
+                        animatedSprite2D.Animation = "Attack_Top";
+                        break;
+                }
+            }
 
-			if (animatedSprite2D.Animation == "Walk_Down" || animatedSprite2D.Animation == "Idle_Down")
-			{
-				animatedSprite2D.Animation = "Attack_Down";
-			}
+            // Idle animation
+            if (Input.IsActionJustReleased("MoveRight"))
+            {
+                animatedSprite2D.Animation = "Idle_Right";
+            }
 
-			if (animatedSprite2D.Animation == "Walk_Top" || animatedSprite2D.Animation == "Idle_Top")
-			{
-				animatedSprite2D.Animation = "Attack_Top";
-			}
-		}
-		
-		// pour les animations de idle
-		if (Input.IsActionJustReleased("MoveRight"))
-		{
-			animatedSprite2D.Animation = "Idle_Right";
-		}
-		if (Input.IsActionJustReleased("MoveLeft"))
-		{
-			animatedSprite2D.Animation = "Idle_Left";
-		}
-		if (Input.IsActionJustReleased("MoveDown"))
-		{
-			if (velocity.X > 0)
-			{
-				animatedSprite2D.Animation = "Walk_Right";
-			}
-			else
-			{
-				if (velocity.X < 0)
-				{
-					animatedSprite2D.Animation = "Walk_Left";
-				}
-				else
-				{
-					animatedSprite2D.Animation = "Idle_Down";
-				}
-			}
+            if (Input.IsActionJustReleased("MoveLeft"))
+            {
+                animatedSprite2D.Animation = "Idle_Left";
+            }
 
-		}
-		if (Input.IsActionJustReleased("MoveUp"))
-		{
-			if (velocity.X > 0)
-			{
-				animatedSprite2D.Animation = "Walk_Right";
-			}
-			else
-			{
-				if (velocity.X < 0)
-				{
-					animatedSprite2D.Animation = "Walk_Left";
-				}
-				else
-				{
-					animatedSprite2D.Animation = "Idle_Top";
-				}
-			}
+            if (Input.IsActionJustReleased("MoveDown"))
+            {
+                if (velocity.X > 0)
+                {
+                    animatedSprite2D.Animation = "Walk_Right";
+                }
+                else if (velocity.X < 0)
+                {
+                    animatedSprite2D.Animation = "Walk_Left";
+                }
+                else
+                {
+                    animatedSprite2D.Animation = "Idle_Down";
+                }
+            }
 
-		}
+            if (Input.IsActionJustReleased("MoveUp"))
+            {
+                if (velocity.X > 0)
+                {
+                    animatedSprite2D.Animation = "Walk_Right";
+                }
+                else if (velocity.X < 0)
+                {
+                    animatedSprite2D.Animation = "Walk_Left";
+                }
+                else
+                {
+                    animatedSprite2D.Animation = "Idle_Top";
+                }
+            }
 
-		velocity = velocity.Normalized() * Speed;
-		return velocity;
-	}
+            // Normalize velocity and apply movement speed
+            velocity = velocity.Normalized() * Speed;
+            return velocity;
+        }
 
-	private void AnimatedSprite2DOnAnimationFinished()
-	{
-		if (animatedSprite2D.Animation == "Attack_Right")
-		{
-			animatedSprite2D.Animation = "Idle_Right";
-			animatedSprite2D.Play();
-		}
-		if (animatedSprite2D.Animation == "Attack_Left")
-		{
-			animatedSprite2D.Animation = "Idle_Left";
-			animatedSprite2D.Play();
-		}
-		if (animatedSprite2D.Animation == "Attack_Down")
-		{
-			animatedSprite2D.Animation = "Idle_Down";
-			animatedSprite2D.Play();
-		}
-		if (animatedSprite2D.Animation == "Attack_Top")
-		{
-			animatedSprite2D.Animation = "Idle_Top";
-			animatedSprite2D.Play();
-		}
-	}
+        private void AnimatedSprite2DOnAnimationFinished()
+        {
+            // Automatically revert to idle animation after attack
+            switch (animatedSprite2D.Animation)
+            {
+                case "Attack_Right":
+                    animatedSprite2D.Animation = "Idle_Right";
+                    animatedSprite2D.Play();
+                    break;
+                case "Attack_Left":
+                    animatedSprite2D.Animation = "Idle_Left";
+                    animatedSprite2D.Play();
+                    break;
+                case "Attack_Down":
+                    animatedSprite2D.Animation = "Idle_Down";
+                    animatedSprite2D.Play();
+                    break;
+                case "Attack_Top":
+                    animatedSprite2D.Animation = "Idle_Top";
+                    animatedSprite2D.Play();
+                    break;
+            }
+        }
 
-	public override void _PhysicsProcess(double delta)
-	{
-		Vector2 velocity = getInput();
-		Velocity = velocity;
-		MoveAndSlide();
-	}
+        public override void _PhysicsProcess(double delta)
+        {
+            // Handle movement and animations
+            Vector2 velocity = getInput();
+            Velocity = velocity;
+            MoveAndSlide();
+
+            // Check for save/load key presses
+            if (Input.IsActionJustReleased("Save")) // Key 9 to Save
+            {
+                CustomMainLoop.customMainLoop.GetSubsystem<SaveManager>().SaveGame(this);
+            }
+
+            if (Input.IsActionJustReleased("Load")) // Key 0 to Load
+            {
+                CustomMainLoop.customMainLoop.GetSubsystem<SaveManager>().LoadGame(this);
+            }
+        }
+    }
 }
