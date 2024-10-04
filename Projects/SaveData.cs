@@ -1,21 +1,19 @@
 using System;
-using Godot;
 
-namespace DemoMoteursDeJeu;
-
-[Serializable]
-public partial class SaveData : Node
+namespace DemoMoteursDeJeu
 {
-    public Vector2 Position { get; set; }  // Player's position in the world
-
-    // Constructor (optional for initialization)
-    public SaveData(Vector2 position)
+    [Serializable]
+    public class SaveData
     {
-        Position = position;
-    }
+        public float X { get; set; }  // X position
+        public float Y { get; set; }  // Y position
 
-    // Default constructor (needed for deserialization)
-    public SaveData()
-    {
+        public SaveData() { }
+
+        public SaveData(float x, float y)
+        {
+            X = x;
+            Y = y;
+        }
     }
 }
