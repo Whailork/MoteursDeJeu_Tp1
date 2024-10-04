@@ -1,12 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "oeLeHEF1f1w=",
+  "dgSpecHash": "ePD585p/l6w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\berge\\OneDrive\\Bureau\\Code\\WonderJam\\2024\\hiver\\MoteursDeJeu_Tp1\\Projects\\DemoMoteursDeJeu.csproj",
+  "projectFilePath": "C:\\Users\\15814\\Desktop\\projets_jni\\MoteursDeJeu_Tp1\\Projects\\DemoMoteursDeJeu.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\berge\\.nuget\\packages\\godot.sourcegenerators\\4.1.2\\godot.sourcegenerators.4.1.2.nupkg.sha512",
-    "C:\\Users\\berge\\.nuget\\packages\\godotsharp\\4.1.2\\godotsharp.4.1.2.nupkg.sha512",
-    "C:\\Users\\berge\\.nuget\\packages\\godotsharpeditor\\4.1.2\\godotsharpeditor.4.1.2.nupkg.sha512"
+    "C:\\Users\\15814\\.nuget\\packages\\godot.sourcegenerators\\4.3.0-dev.3\\godot.sourcegenerators.4.3.0-dev.3.nupkg.sha512",
+    "C:\\Users\\15814\\.nuget\\packages\\godotsharp\\4.3.0-dev.3\\godotsharp.4.3.0-dev.3.nupkg.sha512",
+    "C:\\Users\\15814\\.nuget\\packages\\godotsharpeditor\\4.3.0-dev.3\\godotsharpeditor.4.3.0-dev.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache C:\\Users\\15814\\Desktop\\projets_jni\\MoteursDeJeu_Tp1\\Projects\\.godot\\mono\\temp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

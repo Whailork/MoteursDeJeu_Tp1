@@ -1,5 +1,4 @@
-using Godot;
-using System;
+namespace DemoMoteursDeJeu.Script;
 
 public partial class testScript : Node
 {
