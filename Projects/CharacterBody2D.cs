@@ -11,7 +11,6 @@ public partial class CharacterBody2D : Godot.CharacterBody2D
 	
 	public override void _Ready()
 	{
-		CustomMainLoop.customMainLoop.GetSubsystem<SaveManager>()
 		CustomMainLoop.customMainLoop.GetSubsystem<SaveManager>().LoadGame(this);
 		animatedSprite2D = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
 		animatedSprite2D.AnimationFinished += AnimatedSprite2DOnAnimationFinished;
