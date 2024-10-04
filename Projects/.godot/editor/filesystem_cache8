@@ -1,13 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1727994602
-CharacterBody2D.cs::CSharpScript::-1::1727993164::0::1::::<><>::
-character_body_2d.gd::GDScript::-1::1727993046::0::1::::<>RefCounted<>::
+::res://::1728052593
+CharacterBody2D.cs::CSharpScript::-1::1728001546::0::1::::<><>::
+character_body_2d.gd::GDScript::-1::1728001150::0::1::::<>RefCounted<>::
 default_env.tres::Environment::-1::1726783950::0::1::::<><>::
 icon.png::CompressedTexture2D::3519316935969943402::1726783950::1726783950::1::::<><>::
 Node.cs::CSharpScript::-1::1727993922::0::1::::<><>::
 SaveData.cs::CSharpScript::-1::1727993922::0::1::::<><>::
 SaveManager.cs::CSharpScript::-1::1727993922::0::1::::<><>::
-SceneDemo.tscn::PackedScene::1661542160122887469::1727994539::0::1::::<><>::uid://33n50rqwbi0k::::res://Topdown - Pet - Dog/Root_Attack.png<>uid://c8prc31pj6j70::::res://Topdown - Pet - Dog/Root_Idle.png<>res://CharacterBody2D.cs<>uid://clwo5ga0djgh7::::res://Topdown - Pet - Dog/Root_Walk.png<>uid://g6hjqcdy7vwa::::res://Topdown - Pet - Dog/Root_Death.png<>uid://bsbqdnmme0xqx::::res://World of Solaria Demo Pack Update 04/16x16/Tilesets/New/Solaria Demo Update 01.png
+SceneDemo.tscn::PackedScene::1661542160122887469::1728001551::0::1::::<><>::uid://33n50rqwbi0k::::res://Topdown - Pet - Dog/Root_Attack.png<>uid://c8prc31pj6j70::::res://Topdown - Pet - Dog/Root_Idle.png<>res://CharacterBody2D.cs<>uid://clwo5ga0djgh7::::res://Topdown - Pet - Dog/Root_Walk.png<>uid://g6hjqcdy7vwa::::res://Topdown - Pet - Dog/Root_Death.png<>uid://bsbqdnmme0xqx::::res://World of Solaria Demo Pack Update 04/16x16/Tilesets/New/Solaria Demo Update 01.png
 ::res://Script/::1727993882
 LevelScript.cs::CSharpScript::-1::1727992166::0::1::::<><>::
 MainLoop.cs::CSharpScript::-1::1727993882::0::1::::<><>::

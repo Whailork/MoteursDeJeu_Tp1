@@ -1,12 +1,27 @@
-using Godot;
 using System.IO;
 using System.Text.Json;
+using DemoMoteursDeJeu.Script;
+using Godot;
 
-public partial class SaveManager : Node
+namespace DemoMoteursDeJeu;
+
+public partial class SaveManager : ISubSystem
 {
     private string saveFilePath;
+    public static SaveManager saveManager;
 
-    public override void _Ready()
+    public static ISubSystem GetSubSystem()
+    {
+        if (saveManager == null)
+        {
+            saveManager = new SaveManager();
+        }
+
+        return saveManager;
+    }
+
+    
+    private SaveManager()
     {
         // Set the file path for the save file
         saveFilePath = Path.Combine(OS.GetUserDataDir(), "save_game.json");

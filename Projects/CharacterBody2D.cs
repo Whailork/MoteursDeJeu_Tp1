@@ -1,5 +1,7 @@
+using DemoMoteursDeJeu.Script;
 using Godot;
-using System;
+
+namespace DemoMoteursDeJeu;
 
 public partial class CharacterBody2D : Godot.CharacterBody2D
 {
@@ -7,10 +9,17 @@ public partial class CharacterBody2D : Godot.CharacterBody2D
 	public const float JumpVelocity = -400.0f;
 	public AnimatedSprite2D animatedSprite2D;
 	
-	private Vector2 getInput()
+	public override void _Ready()
 	{
+		CustomMainLoop.customMainLoop.GetSubsystem<SaveManager>()
+		CustomMainLoop.customMainLoop.GetSubsystem<SaveManager>().LoadGame(this);
 		animatedSprite2D = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
 		animatedSprite2D.AnimationFinished += AnimatedSprite2DOnAnimationFinished;
+		
+	}
+	private Vector2 getInput()
+	{
+		
 		Vector2 velocity = new Vector2();
 		if (Input.IsActionPressed("MoveRight"))
 		{

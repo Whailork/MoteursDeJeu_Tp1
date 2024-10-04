@@ -1,5 +1,4 @@
-using Godot;
-using System;
+namespace DemoMoteursDeJeu;
 
 public partial class Node : Godot.Node
 {

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8dueS3qWwKs=",
+  "dgSpecHash": "GxdO19FLn37CRF7EshDOLXUYg/6WVDIaDbT62bjO48lrS3T4PenLM3w7psuQMt4/c5pGZhq4STHCRaCQ6Rsbgg==",
   "success": true,
   "projectFilePath": "C:\\Users\\berge\\OneDrive\\Bureau\\Code\\WonderJam\\2024\\hiver\\MoteursDeJeu_Tp1\\Projects\\DemoMoteursDeJeu.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\berge\\.nuget\\packages\\godot.sourcegenerators\\4.3.0\\godot.sourcegenerators.4.3.0.nupkg.sha512",
-    "C:\\Users\\berge\\.nuget\\packages\\godotsharp\\4.3.0\\godotsharp.4.3.0.nupkg.sha512",
-    "C:\\Users\\berge\\.nuget\\packages\\godotsharpeditor\\4.3.0\\godotsharpeditor.4.3.0.nupkg.sha512"
+    "C:\\Users\\berge\\.nuget\\packages\\godot.sourcegenerators\\4.1.2\\godot.sourcegenerators.4.1.2.nupkg.sha512",
+    "C:\\Users\\berge\\.nuget\\packages\\godotsharp\\4.1.2\\godotsharp.4.1.2.nupkg.sha512",
+    "C:\\Users\\berge\\.nuget\\packages\\godotsharpeditor\\4.1.2\\godotsharpeditor.4.1.2.nupkg.sha512"
   ],
   "logs": []
 }
