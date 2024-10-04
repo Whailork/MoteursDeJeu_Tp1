@@ -3,3 +3,5 @@ res://character_body_2d.gd
 res://Script/LevelScript.cs
 res://CharacterBody2D.cs
 res://Script/testScript.cs
+res://Node.cs
+res://Script/CustomMainLoop.cs
