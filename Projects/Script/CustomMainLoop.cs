@@ -5,15 +5,20 @@ namespace DemoMoteursDeJeu.Script;
 [GlobalClass]
 public partial class CustomMainLoop : SceneTree
 {
-
-
 	public static CustomMainLoop customMainLoop;
-	
+	private LevelScript _levelManager;
 
 	public override void _Initialize()
 	{
+		_levelManager = new LevelScript();
+		
 		GD.Print("Initialized:");
 		//GetSubsystem<SaveManager>().LoadGame(null);
+	}
+	
+	public LevelScript GetLevelManager()
+	{
+		return _levelManager;
 	}
 
 	public override bool _Process(double delta)

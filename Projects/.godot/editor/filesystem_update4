@@ -6,3 +6,6 @@ res://Script/testScript.cs
 res://Node.cs
 res://Script/CustomMainLoop.cs
 res://SaveData.cs
+res://SaveManager.cs
+res://Scenes/SceneDemo.tscn
+res://Scenes/Level_2.tscn
