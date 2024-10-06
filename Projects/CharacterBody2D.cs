@@ -155,6 +155,17 @@ namespace DemoMoteursDeJeu
 				}
 			}
 
+			// Check for save/load key presses
+			if (Input.IsActionJustReleased("Save")) // Key 9 to Save
+			{
+				CustomMainLoop.GetCustomMainLoop().GetSubsystem<SaveManager>().SaveGame(GetNode<CharacterBody2D>("."));
+			}
+
+			if (Input.IsActionJustReleased("Load")) // Key 0 to Load
+			{
+				CustomMainLoop.GetCustomMainLoop().GetSubsystem<SaveManager>().LoadGame(GetNode<CharacterBody2D>("."));
+			}
+			
 			// Normalize velocity and apply movement speed
 			velocity = velocity.Normalized() * Speed;
 			return velocity;
@@ -191,16 +202,7 @@ namespace DemoMoteursDeJeu
 			Velocity = velocity;
 			MoveAndSlide();
 
-			// Check for save/load key presses
-			if (Input.IsActionJustReleased("Save")) // Key 9 to Save
-			{
-				CustomMainLoop.GetCustomMainLoop().GetSubsystem<SaveManager>().SaveGame(GetNode<CharacterBody2D>("."));
-			}
-
-			if (Input.IsActionJustReleased("Load")) // Key 0 to Load
-			{
-				CustomMainLoop.GetCustomMainLoop().GetSubsystem<SaveManager>().LoadGame(GetNode<CharacterBody2D>("."));
-			}
+			
 		}
 	}
 }

@@ -10,7 +10,7 @@ public partial class CustomMainLoop : SceneTree
 
 	public override void _Initialize()
 	{
-		_levelManager = new LevelScript();
+		// = new LevelScript();
 		
 		GD.Print("Initialized:");
 		//GetSubsystem<SaveManager>().LoadGame(null);
@@ -44,7 +44,7 @@ public partial class CustomMainLoop : SceneTree
 	}
 	public T GetSubsystem<T>() where T : ISubSystem
 	{
-		return (T)typeof(T).GetMethod("GetSubSystem").Invoke(null,null);
+		return (T)typeof(T).GetMethod("GetSubSystem")?.Invoke(null,null);
 	}
 }
 
