@@ -1,16 +1,17 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728179375
-CharacterBody2D.cs::CSharpScript::-1::1728174958::0::1::::<><>::
+::res://::1728353887
+CharacterBody2D.cs::CSharpScript::-1::1728347019::0::1::::<><>::
 character_body_2d.gd::GDScript::-1::1728174714::0::1::::<>RefCounted<>::
 default_env.tres::Environment::-1::1726783950::0::1::::<><>::
 icon.png::CompressedTexture2D::3519316935969943402::1726783950::1726783950::1::::<><>::
 Node.cs::CSharpScript::-1::1728174090::0::1::::<><>::
 SaveData.cs::CSharpScript::-1::1728174090::0::1::::<><>::
 SaveManager.cs::CSharpScript::-1::1728174090::0::1::::<><>::
-SceneDemo.tscn::PackedScene::1661542160122887469::1728176153::0::1::::<><>::uid://33n50rqwbi0k::::res://Topdown - Pet - Dog/Root_Attack.png<>uid://c8prc31pj6j70::::res://Topdown - Pet - Dog/Root_Idle.png<>res://CharacterBody2D.cs<>uid://clwo5ga0djgh7::::res://Topdown - Pet - Dog/Root_Walk.png<>uid://g6hjqcdy7vwa::::res://Topdown - Pet - Dog/Root_Death.png<>uid://bsbqdnmme0xqx::::res://World of Solaria Demo Pack Update 04/16x16/Tilesets/New/Solaria Demo Update 01.png
-::res://Script/::1728175301
-CustomMainLoop.cs::CSharpScript::-1::1728175301::0::1::::CustomMainLoop<>SceneTree<>::
-LevelScript.cs::CSharpScript::-1::1728174488::0::1::::<><>::
+SceneDemo.tscn::PackedScene::1661542160122887469::1728350919::0::1::::<><>::uid://33n50rqwbi0k::::res://Topdown - Pet - Dog/Root_Attack.png<>uid://c8prc31pj6j70::::res://Topdown - Pet - Dog/Root_Idle.png<>res://CharacterBody2D.cs<>uid://clwo5ga0djgh7::::res://Topdown - Pet - Dog/Root_Walk.png<>uid://g6hjqcdy7vwa::::res://Topdown - Pet - Dog/Root_Death.png<>uid://bsbqdnmme0xqx::::res://World of Solaria Demo Pack Update 04/16x16/Tilesets/New/Solaria Demo Update 01.png
+SecondaryScene.tscn::PackedScene::3481674642308814522::1728350904::0::1::::<><>::
+::res://Script/::1728350896
+CustomMainLoop.cs::CSharpScript::-1::1728350896::0::1::::CustomMainLoop<>SceneTree<>::
+LevelManager.cs::CSharpScript::-1::1728349596::0::1::::<><>::
 ::res://Topdown - Pet - Dog/::1726783950
 Root_Attack.png::CompressedTexture2D::2023934433803535652::1726783950::1726783950::1::::<><>::
 Root_Attack_FX.png::CompressedTexture2D::7723915474615635696::1726783950::1726783950::1::::<><>::

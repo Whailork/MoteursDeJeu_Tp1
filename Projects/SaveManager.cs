@@ -33,7 +33,8 @@ namespace DemoMoteursDeJeu
 			SaveData saveData = new SaveData
 			{
 				X = player.GlobalPosition.X,  // Store X coordinate
-				Y = player.GlobalPosition.Y   // Store Y coordinate
+				Y = player.GlobalPosition.Y,  // Store Y coordinate
+				anim = player.animatedSprite2D.Animation
 			};
 
 			// Serialize the SaveData to JSON and write it to a file
@@ -58,7 +59,8 @@ namespace DemoMoteursDeJeu
 			SaveData saveData = JsonSerializer.Deserialize<SaveData>(json);
 
 			// Load the saved position into the player
-			player.GlobalPosition = new Vector2(saveData.X, saveData.Y);  // Recreate Vector2 from X and Y
+			player.GlobalPosition = new Vector2(saveData.X, saveData.Y); // Recreate Vector2 from X and Y
+			player.animatedSprite2D.Animation = saveData.anim; // asigne l'anim au player
 
 			GD.Print("Game loaded from " + saveFilePath);
 			return true;

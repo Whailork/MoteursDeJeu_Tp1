@@ -10,10 +10,11 @@ namespace DemoMoteursDeJeu
 
 		public override void _Ready()
 		{
-			// Load the game state when the character is ready
-			CustomMainLoop.GetCustomMainLoop().GetSubsystem<SaveManager>().LoadGame( GetNode<CharacterBody2D>("."));
+
 			animatedSprite2D = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
 			animatedSprite2D.AnimationFinished += AnimatedSprite2DOnAnimationFinished;
+			// Load the game state when the character is ready
+			CustomMainLoop.GetCustomMainLoop().GetSubsystem<SaveManager>().LoadGame( GetNode<CharacterBody2D>("."));
 		}
 
 		private Vector2 getInput()
@@ -166,9 +167,21 @@ namespace DemoMoteursDeJeu
 				CustomMainLoop.GetCustomMainLoop().GetSubsystem<SaveManager>().LoadGame(GetNode<CharacterBody2D>("."));
 			}
 			
+			// pour changer de scene
+			if (Input.IsActionJustReleased("Scene1")) // Key 1 load scene1
+			{
+				CustomMainLoop.GetCustomMainLoop().GetSubsystem<LevelManager>().LoadLevel("res://SceneDemo.tscn");
+			}
+
+			if (Input.IsActionJustReleased("Scene2")) // Key 2 to load scene2
+			{
+				CustomMainLoop.GetCustomMainLoop().GetSubsystem<LevelManager>().LoadLevel("res://SecondaryScene.tscn");
+			}
+			
 			// Normalize velocity and apply movement speed
 			velocity = velocity.Normalized() * Speed;
 			return velocity;
+			
 		}
 
 		private void AnimatedSprite2DOnAnimationFinished()

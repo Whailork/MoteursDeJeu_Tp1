@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoMoteursDeJeu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff8c15a3a6c545b27267c58c7799623e9b92c6ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+564193184e78e594de0b2c85841c6eab3b30fb7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoMoteursDeJeu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoMoteursDeJeu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

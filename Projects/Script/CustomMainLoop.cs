@@ -6,23 +6,23 @@ namespace DemoMoteursDeJeu.Script;
 public partial class CustomMainLoop : SceneTree
 {
 	public static CustomMainLoop customMainLoop;
-	private LevelScript _levelManager;
 
 	public override void _Initialize()
 	{
-		// = new LevelScript();
+		customMainLoop = this;
 		
 		GD.Print("Initialized:");
-		//GetSubsystem<SaveManager>().LoadGame(null);
+		//PackedScene scene = ResourceLoader.Load<PackedScene>("res://SceneDemo.tscn");
+		PackedScene scene = ResourceLoader.Load<PackedScene>("res://SecondaryScene.tscn");
+		ChangeSceneToPacked(scene);
+
+
 	}
-	
-	public LevelScript GetLevelManager()
-	{
-		return _levelManager;
-	}
+
 
 	public override bool _Process(double delta)
 	{
+
 		// Return true to end the main loop.
 		return Input.GetMouseButtonMask() != 0 || Input.IsKeyPressed(Key.Escape);
 	}
